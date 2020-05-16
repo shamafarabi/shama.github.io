@@ -1,20 +1,11 @@
-title: 'Scott Cole'
+title: 'Shama Barna'
 description: ''
 
-name: 'Scott Cole'
-url: https://srcole.github.io
+name: 'Shama Barna'
+url: https://shama.github.io
 
 theme: jekyll-theme-cayman
 
-# Google analytics services
-google_analytics: UA-81645509-1
-
-# Social
-twitter:
-  username: scottrcole
-  card: summary
-github_username:      srcole
-twitter_username:      scottrcole
 
 # Build settings
 markdown: kramdown
