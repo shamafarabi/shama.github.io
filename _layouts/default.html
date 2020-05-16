@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <!--  Add link to font awesome for icon use -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% seo %}
+  </head>
+
+  <body>
+
+    {% include header.html %}
+
+    <section class="main-content">
+      {{ content }}
+    </section>
+
+    <!---
+    {% if site.google_analytics %}
+      <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+        try {
+          var pageTracker = _gat._getTracker("{{ site.google_analytics }}");
+        pageTracker._trackPageview();
+        } catch(err) {}
+      </script>
+    {% endif %}
+  -->
+
+    {% include footer.html %}
+
+  </body>
+</html>
