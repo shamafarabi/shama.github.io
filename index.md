@@ -7,5 +7,5 @@ Hi, I'm Shama. I am currently an engineer at Intel and did my PhD in Mechanical 
 </p>
 
 <p style='text-align: justify;'> 
-Aside from work, I also finished a 6 month long immersive bootcamp with Springboard Academy. The curriculum covered concepts on Python,SQL for Data Science, Inferential Statistics (hypothesis testing, experimental design, A/B testing), supervised & unsupervised machine learning, as well as advanced topics such as time series forecasting, recommender systems, NLP and Spark.
+Aside from work, I also finished a 6 month long immersive bootcamp with Springboard Academy. The curriculum covered concepts on Python,SQL for data science, inferential statistics (hypothesis testing, experimental design, A/B testing), supervised & unsupervised machine learning, as well as advanced topics such as time series forecasting, recommender systems, NLP and Spark.
 </p>
