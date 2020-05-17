@@ -1,6 +1,5 @@
 ---
 layout: default
-mathjax: true
 comments: true
 title: Data science projects
 permalink: /dataprojects/
