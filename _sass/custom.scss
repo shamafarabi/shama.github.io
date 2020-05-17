@@ -24,10 +24,10 @@
     text-align: center;
 }
 
-p {
-    text-align: justify;
-    text-justify: inter-word;
+.page__content {
+  text-align: justify;
 }
+
 
 /* Image sizing for plog posts - CdeMX Post*/
 img[alt=WholeGroup] { width: 750px;}
