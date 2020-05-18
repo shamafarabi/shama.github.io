@@ -2,7 +2,7 @@
 layout: default
 comments: true
 title: Data science projects
-permalink: /dataprojects/
+permalink: /datascienceprojects/
 ---
 ## Projects
 ### 1. Predict Cast Member of the show "Friends" - [Repository,](https://github.com/shamafarabi/Predicting-Cast-Member-of-the-TV-show-Friends-using-NLP) [Article](https://github.com/shamafarabi/Predicting-Cast-Member-of-the-TV-show-Friends-using-NLP/blob/master/Project%20Report.ipynb)
