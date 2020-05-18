@@ -124,8 +124,9 @@ In this final step of the project, the non Personalized recommendation system is
 - All three algorithms ( SVD, KNN anf NMF) considered for ML modeling were found to have better RMSE scores compared to the baseline ML model (i.e. Normal Predict). Grid search also seemed to help the prediction accuracy for KNN and SVD. SVD was found to be the best performing model after grid search and was used to predict user's rating for personalized recommendation. Below is a summary of findings from modeling.
 
 - Comparison of the histogram of actual ratings and the ratings predicted by SVD shows that the model predicts the distribution of the ratings fairly well. Both actual and predicted rating distribution show that users tend to rate books mostly 4 or higher, and the mean of the ratings in the test dataset lies between 4 and 5.
-
-<img src="/assets/recommendation/Modeling_Summary.png" >
+<p style="text-align:center">
+<img src="/assets/recommendation/Modeling_Summary.png" Height = 400 >
+</p>
 
 > **Features of the Recommendation Engine**
 
