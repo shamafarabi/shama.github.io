@@ -111,9 +111,12 @@ In this final step of the project, the non Personalized recommendation system is
 
 - As the number of books in the dataset 10000 are less than the number of users (53,424), sparsity is less likely to be an issue for ML modeling with this dataset.
 
-<div class="imgcap">
-<img src="/assets//recommendation/insght_summary.png">
-</div>
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+<img class="displayed" src="/assets//recommendation/insght_summary.png">
+
 
 # ML Models and Recommendation Engine: Overview
 
