@@ -132,15 +132,12 @@ In this final step of the project, the non Personalized recommendation system is
 
 - **Non-Personalized Search:** The non-personalized keyword-search recommender module can help new user to find next books to read by using a combination of filtering options (category, author or # of books to show). It ranks the filtered catalog based on average ratings of the book.
 
-<img src="/assets//recommendation/NonPersonalized_Search_by_Category.png" Height = 200 class="center">
+<img src="/assets//recommendation/NonPersonalized_Search_by_Category.png" Height = 200>
   
 - **Personalized Search:** A personalized collaborative recommender module supports personalized book recommendation given the unique user_id. The personalization is computed based on the user's and all other users' rating history of all books via an optimized matrix factorization model (SVD) .The user-unrated books from the catalog are then filtered based on his/her choices, ranked by ratings predicted by the model and finally returend as personalized recommendations.
 
-<img src="/assets//recommendation/Personalized_Search_by_Author.png" Height = 200 class="center">
+<img src="/assets//recommendation/Personalized_Search_by_Author.png" Height = 200>
 
 - **Smart Filterning and Tag Recommendation:** Both non-personalized and personalized recommendation have smart filtering capability and can provide tag recommendations. For example, if a user does not remember an author's full name but remember parts of it, he/she can still use it to search books by the author. The recommender module will filter out top - ranked books from all the authors whose names matches the input pattern. Additionally, it will also suggest the frequent tag names people have used to shelve these books.
 
-<div class="imgcap" margin = auto>
 <img src="/assets//recommendation/Smart_Filtering_Example.png" Height = 400>
-</div>
-
