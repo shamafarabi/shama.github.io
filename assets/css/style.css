@@ -2,5 +2,5 @@
 ---
 
 @import "{{ site.theme }}";
-@import '../_sass/_page.scss';
+@import '../_sass/page.scss';
 
