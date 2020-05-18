@@ -125,8 +125,9 @@ In this final step of the project, the non Personalized recommendation system is
 
 - Comparison of the histogram of actual ratings and the ratings predicted by SVD shows that the model predicts the distribution of the ratings fairly well. Both actual and predicted rating distribution show that users tend to rate books mostly 4 or higher, and the mean of the ratings in the test dataset lies between 4 and 5.
 
-
-<img src="/assets/recommendation/Modeling_Summary.png"  alt="Paris"  Height = "200" class="center">
+<p style="text-align:center">
+<img src="/assets/recommendation/Modeling_Summary.png" >
+  </p>
 
 
 > **Features of the Recommendation Engine**
