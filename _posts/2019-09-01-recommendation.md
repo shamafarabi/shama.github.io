@@ -125,8 +125,9 @@ In this final step of the project, the non Personalized recommendation system is
 - All three algorithms ( SVD, KNN anf NMF) considered for ML modeling were found to have better RMSE scores compared to the baseline ML model (i.e. Normal Predict). Grid search also seemed to help the prediction accuracy for KNN and SVD. SVD was found to be the best performing model after grid search and was used to predict user's rating for personalized recommendation. Below is a summary of findings from modeling.
 
 - Comparison of the histogram of actual ratings and the ratings predicted by SVD shows that the model predicts the distribution of the ratings fairly well. Both actual and predicted rating distribution show that users tend to rate books mostly 4 or higher, and the mean of the ratings in the test dataset lies between 4 and 5.
-
-<img src="/assets//recommendation/Modeling_Summary.png" Height = 400 class="center">
+<div class="imgcap" margin = auto>
+<img src="/assets//recommendation/Modeling_Summary.png" Height = 400">
+</div>
 
 > **Features of the Recommendation Engine**
 
@@ -141,6 +142,6 @@ In this final step of the project, the non Personalized recommendation system is
 - **Smart Filterning and Tag Recommendation:** Both non-personalized and personalized recommendation have smart filtering capability and can provide tag recommendations. For example, if a user does not remember an author's full name but remember parts of it, he/she can still use it to search books by the author. The recommender module will filter out top - ranked books from all the authors whose names matches the input pattern. Additionally, it will also suggest the frequent tag names people have used to shelve these books.
 
 <div class="imgcap" margin = auto>
-<img src="/assets//recommendation/Smart_Filtering_Example.png" Height = 400 class="center">
- </div>
+<img src="/assets//recommendation/Smart_Filtering_Example.png" Height = 400>
+</div>
 
