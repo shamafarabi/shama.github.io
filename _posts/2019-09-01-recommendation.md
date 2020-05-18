@@ -139,5 +139,7 @@ In this final step of the project, the non Personalized recommendation system is
 <img src="/assets/recommendation/Personalized_Search_by_Author.png" Height = 200>
 
 - **Smart Filterning and Tag Recommendation:** Both non-personalized and personalized recommendation have smart filtering capability and can provide tag recommendations. For example, if a user does not remember an author's full name but remember parts of it, he/she can still use it to search books by the author. The recommender module will filter out top - ranked books from all the authors whose names matches the input pattern. Additionally, it will also suggest the frequent tag names people have used to shelve these books.
-<div style="text-align:center"><img src="/assets/recommendation/Smart_Filtering_Example.png" Height = 400></div>
+<div style="text-align:center">
+  <img src="/assets/recommendation/Smart_Filtering_Example.png" Height = 400>
+</div>
 
