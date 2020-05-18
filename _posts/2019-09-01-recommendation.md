@@ -111,11 +111,7 @@ In this final step of the project, the non Personalized recommendation system is
 
 - As the number of books in the dataset 10000 are less than the number of users (53,424), sparsity is less likely to be an issue for ML modeling with this dataset.
 
-img.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
-<img class="displayed" src="/assets//recommendation/insght_summary.png">
+<img src="/assets//recommendation/insght_summary.png">
 
 
 # ML Models and Recommendation Engine: Overview
@@ -128,7 +124,7 @@ img.displayed {
 - All three algorithms ( SVD, KNN anf NMF) considered for ML modeling were found to have better RMSE scores compared to the baseline ML model (i.e. Normal Predict). Grid search also seemed to help the prediction accuracy for KNN and SVD. SVD was found to be the best performing model after grid search and was used to predict user's rating for personalized recommendation. Below is a summary of findings from modeling.
 
 - Comparison of the histogram of actual ratings and the ratings predicted by SVD shows that the model predicts the distribution of the ratings fairly well. Both actual and predicted rating distribution show that users tend to rate books mostly 4 or higher, and the mean of the ratings in the test dataset lies between 4 and 5.
-<div class="imgcap" margin = auto>
+<div class="imgcap">
 <img src="/assets//recommendation/Modeling_Summary.png" Height = 400">
 </div>
 
