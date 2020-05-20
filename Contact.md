@@ -17,7 +17,7 @@ Feel free to get in touch with me. I am always open to discussing new oportuniti
   <br><br>
   <label>
     Your message:
-    <textarea name="message"></textarea>
+    <textarea name="message" size ="20"></textarea>
   </label>
 
   <!-- your other form fields go here -->
