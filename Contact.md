@@ -11,13 +11,13 @@ Feel free to get in touch with me. I am always open to discussing new oportuniti
   method="POST"
 >
   <label>
-    Your email:
-    <input type="text" name="_replyto">
+    Your email:<br><br>
+    <input type="text" name="_replyto"> <br><br>
   </label>
-  <br><br>
+ 
   <label>
-    Your message:
-    <textarea name="message" size ="20"></textarea>
+    Your message: <br><br>
+    <textarea name="message" size ="20"></textarea> <br><br>
   </label>
 
   <!-- your other form fields go here -->
