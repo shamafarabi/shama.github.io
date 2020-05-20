@@ -14,6 +14,7 @@ Feel free to get in touch with me. I am always open to discussing new oportuniti
     Your email:
     <input type="text" name="_replyto">
   </label>
+  <br><br>
   <label>
     Your message:
     <textarea name="message"></textarea>
