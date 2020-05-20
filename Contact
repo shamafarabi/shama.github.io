@@ -1,0 +1,13 @@
+---
+layout: default
+comments: true
+title: Data science projects
+permalink: /datascienceprojects/
+---
+Feel free to get in touch with me. I am always open to discussing new oportunities, collaborating on interesting ideas or addressing any other questions you have.
+
+<form action="https://formspree.io/maypqlga" method="POST">
+  <input type="text" name="name">
+  <input type="email" name="_replyto">
+  <input type="submit" value="Send">
+</form>
