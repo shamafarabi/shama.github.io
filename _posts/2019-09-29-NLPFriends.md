@@ -46,9 +46,9 @@ It is to note that while mean accuracy reflects the overall prediction ability o
 
 # Improvements
 
-There are few options that can be attempted to improve prediction by the models.
-    - A. We can take a look at the confusion matrix to check if the model in confusing any particular class with another and if there is a way to improve the distinction between the classes via feature engineering.
-    - B.  As showed earlier in the barplot, there is a class imbalance in the data. While this imbalance is more significant between the 6 leading actors and the others, resampling can help adjust the imbalance in the data among the leading actors too and slightly improve the score.
+There are few options that can be attempted to improve prediction by the models. <br>
+    - A. We can take a look at the confusion matrix to check if the model in confusing any particular class with another and if there is a way to improve the distinction between the classes via feature engineering. <br>
+    - B.  As showed earlier in the barplot, there is a class imbalance in the data. While this imbalance is more significant between the 6 leading actors and the others, resampling can help adjust the imbalance in the data among the leading actors too and slightly improve the score.  <br>
     - C. We can also take a look at class specific roc_auc score to identify which classes are being identified less accurately by the model. This would help us to identify ways to train the model the model better for those classes.
     
 <img src="/assets/NLPFriends/CM1.png">
