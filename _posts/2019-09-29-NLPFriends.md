@@ -1,11 +1,12 @@
 ---
 layout: post
 comments: true
-title:  "Collaborative Filtering Based Book Recommendation Engine"
-excerpt: "Book reading apps like Goodreads has personally helped me to find books I couldn’t put away and thus getting back to the habit of reading regularly again. In this project, I developed a collaborative filterning based book recommendation model using goodreads dataset that can suggest readers what books to read next."
-date:   2019-09-29 01:00:00
+title:  "Doing NLP with "Friends" : How Simple Feature Engineering Can Help"
+excerpt: "I recently completed a project where I used NLP to predict characters of my favorite TV show "Friends". I felt that some of the learnings from the project should be put together to highlight how simple feature engineering can help to take a simplified approach for ML modeling while improving the accuracy in multiclass text classification..
+date:   2019-11-29 01:00:00
 mathjax: true
 ---
+
 # Introduction
     "Friends" is one of my all time favorite TV shows. I was looking for a personal project to apply NLP, and thought it would be interesting to see how machine learning models can be trained to guess the characters from the show.I thought this could be an interesting approach for an author/director to check if the cast members in their story or plot have predicatable traits or how their roles are being perceived by the audience.
    
