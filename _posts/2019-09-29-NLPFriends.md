@@ -22,6 +22,8 @@ I scraped the data from the text transcripts for all episodes of Friends using P
 # Visualization
 
 The bar plot below shows that the tv series has 304 characters in total. Count plot of number of lines for different characters suggests that the plots through the tv series are mainly centered around the main characters we already know (No Surprise!). All the main characters (i.e. Rachel, Ross, Joey, Phoebe, Chandler and Monica) have at least > 6000 lines in the show with Rachel and Ross taking the lead. 
+
+<img src="/assets/NLPFriends/barplot.png">
  
 All the supporting actors have significantly fewer number of lines (<500) compared to the main characters. This implies that multiclass ML modeling may suffer from imbalance in the dataset when number of classes considered is > 6 in the analysis.
    
