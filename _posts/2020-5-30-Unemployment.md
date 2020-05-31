@@ -2,22 +2,20 @@
 layout: post
 comments: true
 title:  "Unemployment in the US during Covid: Some Quick Take Aways"
-excerpt: "There have been a lot of news about increased unemployment in the US due to the pandemic (i.e. covid 19) lately. So I decided to scrape some data from a couple of recently published reports on the [website](https://www.bls.gov/) of Bureau of Labor Statistics over  and do a quick exploratory data analysis. This short writeup outlines my finidings."
+excerpt: "There have been a lot of news about increased unemployment in the US due to the pandemic (i.e. covid 19) lately. So I decided to scrape some data from a couple of recently published reports on the websit of Bureau of Labor Statistics and do a quick exploratory data analysis. This short writeup outlines my finidings."
 date:   2019-09-29 01:00:00
 mathjax: true
 ---
 
 # Introduction
 
-Covid 19 has affected all of our lives in many ways. The job landscape is reported to have changed drastically in the US. Many of the friends I talked to were of the opinion that while many sectors experienced hiring freeze or layoffs, some sectors have also seen an uptick in employment opportunities as we continue to adjust our lives to this new normal. So I decided to scrape the data from some of the reports published on May,2020 on the [website](https://www.bls.gov/) of Bureau of Labor Statistics.
- 
-# Data Processing
+Covid 19 has affected all of our lives in many ways. The job landscape is reported to have changed drastically in the US. Many of the friends I talked to were of the opinion that while many sectors experienced hiring freeze or layoffs, some sectors have also seen an uptick in employment opportunities as we continue to adjust our lives to this new normal. So I decided to scrape the data from some of the reports published on May,2020 on the [website](https://www.bls.gov/) of Bureau of Labor Statistics, and then do some visualizations to educate myself on the trends. The notebook can be found [here]()
 
-I scraped the data from the text transcripts for all episodes of Friends using Python's Beautiful Soup4 Package. After parsing the data, removing blank spaces and non-relevant texts and concatenating the files, data was finally stored in a dataframe layout where every line said by a character, the corresponding episode and season were saved as an observation for input and the name of the cast members was saved as the output variable. Then I used the nltk package to tokenize the sentences into words, removed stop words (e.g. the’, ‘is’, ‘are’ etc.), punctuations, numbers and then lemmatized all the words to their basic forms(e.g. 'walk', 'walked', 'walks', 'walking' is converted to the basic form - 'walk').
-    
-# Visualization
+Below are the takeaways from it:
 
-The bar plot below shows that the tv series has 304 characters in total. Count plot of number of lines for different characters suggests that the plots through the tv series are mainly centered around the main characters we already know (No Surprise!). All the main characters (i.e. Rachel, Ross, Joey, Phoebe, Chandler and Monica) have at least > 6000 lines in the show with Rachel and Ross taking the lead. 
+# 1 US Workforce: Trends and Distribution from 2019:2020
+
+The total nonfarm (i.e. all employees except farm workers, private household employees, or non-profit organization employees) employees in the US can be grouped into to two major categories or super-sectors - Goods-producing industry and Service-providing Industry. The barplot in the Figure below shows the distribution the US workforce in these two supersectors over the years while the line plot represents the total employment over the year. As of April 2019, around 86% of the US workforce are employed in the service providing industry whereas the reamining 14% are employed in the good producing industry. While the total number of americans employed dropped by 20.53 millions only during the pandemic (i.e., March 2020 - April 2020), their distribution in these two super sectors remained the steady over the year and during this pandemic.
 
 <img src="/assets/NLPFriends/barplot.png">
  
