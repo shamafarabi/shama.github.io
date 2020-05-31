@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Unemployment in the US during Covid, Visualized"
+title:  "Unemployment in the US during Covid, through Data Visualization"
 excerpt: "There have been a lot of news about increased unemployment in the US due to the pandemic (i.e. covid 19) lately. So I decided to scrape some data from a couple of recently published reports on the websit of Bureau of Labor Statistics and do a quick exploratory data analysis. This short writeup outlines my finidings."
 date:   2019-09-29 01:00:00
 mathjax: true
