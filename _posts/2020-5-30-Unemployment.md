@@ -13,7 +13,7 @@ Covid 19 has affected all of our lives in many ways. The job landscape is report
 
 Below are the takeaways from it:
 
-## US Workforce: Trends and Distribution from 2019-2020
+## US Workforce: Trends and Distribution
 
 The total nonfarm (i.e. all employees except farm workers, private household employees, or non-profit organization employees) employees in the US can be grouped into to two major categories or super-sectors - Goods-producing industries and Service-providing industries. The barplot below (Figure 1) shows the distribution the US workforce in these two supersectors over the years while the line plot represents the total employment over the year. As of April 2019, around 86% of the US workforce are employed in the service providing industries whereas the reamining 14% are employed in the goods-producing industries. The chart shows that while roughly 20.53 millions lost their jobs only during the pandemic (i.e., March 2020 - April 2020), their distribution in these two super sectors remained the steady over the year and during this pandemic.
 
