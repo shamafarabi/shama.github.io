@@ -20,7 +20,7 @@ The total nonfarm (i.e. all employees except farm workers, private household emp
 <img src="/assets/Unemployment/US_Workforce_Trends.png">
 
 
-# Snapshot of US Workforce in Goods-producing and Service-providing industries
+# Snapshot: Goods-producing and Service-providing industries
  
 The goods-producing industries largely comprises of manufacturing and construction and contributed to employ roughly ~20 millions americans as of March, 2020. The major industries in the service providing sector are education and health services, government institutions, trade and transporation as well as professional and business services. Each of these four subgroups in the service -providing sector alone provided more jobs (>20 millions) for americans than the goods-producing sector.
 
@@ -28,7 +28,10 @@ The goods-producing industries largely comprises of manufacturing and constructi
 <img src="/assets/Unemployment/unemployment_by_sector.png">
 
 
-Figure 4 charts the number of layoffs (i.e. increase in unemployment) in ranked order from top to bottom. All the industries across the US were negatively impacted due to the pandemic. The worst effect in terms on employment was on the Leisure and Hospitality Industry. Roughlly 46.7% (~7.6 millions) of the americans working in this sector lost their jobs between March - April 2020 due to the pandemic. The number of job cuts in the Education and Health Services came as a surprise given the increasing need of support required at the hospitals at the moment, but it is possible that any possible uptick of hiring in the hospitals was offset by layoffs in other non-emergency services in the health or education sector. The top 3 sectors in the chart taking the worst hit of the pandemic represented 45.4% of the US workforce in March 2020. Based on the total number of employments in March 2020 and lay offs over the month, americans working in Financial Services (represents 5.6% of total US workforce) and government institutions (represents 15% of the US workforce) were relatively safer when comes to remaining employed. Both sectors experienced less than 5% decrease in their respective workforce (% decrease in the table next to Figure 4). 
+# Unemployment during Covid: Ranked by Industries
+Figure 4 charts the number of layoffs (i.e. increase in unemployment) in ranked order from top to bottom. All the industries across the US were negatively impacted due to the pandemic. The Leisure and Hospitality Industry was hit the hardest. Roughlly 46.7% (~7.6 millions) of the americans working in this sector lost their jobs between March - April 2020 due to the pandemic. The number of job cuts in the Education and Health Services came as a surprise given the increasing need of support required at the hospitals at the moment, but it is possible that any possible uptick of hiring in the hospitals was offset by layoffs in other non-emergency services in the health or education sector. The top 3 sectors in the chart taking the worst hit of the pandemic represented 45.4% of the US workforce in March 2020. 
+
+Based on the total number of employments in March 2020 and lay offs over the month, americans working in Financial Services (represents 5.6% of total US workforce) and government institutions (represents 15% of the US workforce) were relatively safer when comes to remaining employed. Both sectors experienced less than 5% decrease in their respective workforce (Table 1). 
 
 <img src="/assets/Unemployment/unemployment_by_sectors.png">
 
