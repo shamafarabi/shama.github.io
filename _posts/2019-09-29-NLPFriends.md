@@ -7,7 +7,7 @@ date:   2019-09-29 01:00:00
 mathjax: true
 ---
 
-# Introduction
+## Introduction
 
 'Friends' is one of my all time favorite TV shows. I was looking for a personal project to apply NLP, and thought it would be interesting to see how machine learning models can be trained to guess the characters from the show. I thought that data analysis and machine learning could be an interesting approach for an author/director to check if the cast members in their story or plot have predicatable traits or how their roles are being perceived by the audience.
    
@@ -15,11 +15,11 @@ My goal of writing this blog is to highlight that getting accurate prediction fo
    
 This blog is a short summary of some of the outcomes from the project. If you are interested to know about on all the aspects I explored in this project, please check out the project report in my github repo.
  
-# Data Processing
+## Data Processing
 
 I scraped the data from the text transcripts for all episodes of Friends using Python's Beautiful Soup4 Package. After parsing the data, removing blank spaces and non-relevant texts and concatenating the files, data was finally stored in a dataframe layout where every line said by a character, the corresponding episode and season were saved as an observation for input and the name of the cast members was saved as the output variable. Then I used the nltk package to tokenize the sentences into words, removed stop words (e.g. the’, ‘is’, ‘are’ etc.), punctuations, numbers and then lemmatized all the words to their basic forms(e.g. 'walk', 'walked', 'walks', 'walking' is converted to the basic form - 'walk').
     
-# Visualization
+## Visualization
 
 The bar plot below shows that the tv series has 304 characters in total. Count plot of number of lines for different characters suggests that the plots through the tv series are mainly centered around the main characters we already know (No Surprise!). All the main characters (i.e. Rachel, Ross, Joey, Phoebe, Chandler and Monica) have at least > 6000 lines in the show with Rachel and Ross taking the lead. 
 
@@ -32,7 +32,7 @@ I generated wordclouds to check if it can be used to find words that are unique 
 <img src="/assets/NLPFriends/Wordcloud_filter.png">
 
 
-# Modeling Approach
+## Modeling Approach
     
 The ML modeling for this problem is a multi-class classification task. While I explored the problem from classifying upto 15 members, to simplify this discussion, this blog only have results for the leading 6 characters.
 
@@ -44,7 +44,7 @@ Below are the preliminary ML modeling results for different linear ML models aft
  
 It is to note that while mean accuracy reflects the overall prediction ability of a classifer, it does not evaluate the degree to which a classifier can discriminate between different classes. In general, roc_auc score is a better representation of a classifier's performance than accruacy for a multiclass problem as unlike accuracy, roc_auc does not depend on a specific thresholding value and evaluate the degree to which a classifier correctly identify different classes in a multiclass problem. Therefore, we will discuss model performance in terms of macro roc_auc score in addition to  mean accuracy later in this section.
 
-# Improvements
+## Improvements
 
 There are few options that can be attempted to improve prediction by the models. <br><br>
     - A. We can take a look at the confusion matrix to check if the model in confusing any particular class with another and if there is a way to improve the distinction between the classes via feature engineering. <br><br>
