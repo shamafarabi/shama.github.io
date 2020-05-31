@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Unemployment in the US during Covid: Some Quick Take Aways through Data Visualization"
+title:  "Unemployment in the US during Covid, Visualized"
 excerpt: "There have been a lot of news about increased unemployment in the US due to the pandemic (i.e. covid 19) lately. So I decided to scrape some data from a couple of recently published reports on the websit of Bureau of Labor Statistics and do a quick exploratory data analysis. This short writeup outlines my finidings."
 date:   2019-09-29 01:00:00
 mathjax: true
@@ -13,17 +13,17 @@ Covid 19 has affected all of our lives in many ways. The job landscape is report
 
 Below are the takeaways from it:
 
-# 1 US Workforce: Trends and Distribution from 2019:2020
+# US Workforce: Trends and Distribution from 2019-2020
 
-The total nonfarm (i.e. all employees except farm workers, private household employees, or non-profit organization employees) employees in the US can be grouped into to two major categories or super-sectors - Goods-producing industry and Service-providing Industry. The barplot in the Figure below shows the distribution the US workforce in these two supersectors over the years while the line plot represents the total employment over the year. As of April 2019, around 86% of the US workforce are employed in the service providing industry whereas the reamining 14% are employed in the good producing industry. While the total number of americans employed dropped by 20.53 millions only during the pandemic (i.e., March 2020 - April 2020), their distribution in these two super sectors remained the steady over the year and during this pandemic.
+The total nonfarm (i.e. all employees except farm workers, private household employees, or non-profit organization employees) employees in the US can be grouped into to two major categories or super-sectors - Goods-producing industries and Service-providing industries. The barplot in the figure below shows the distribution the US workforce in these two supersectors over the years while the line plot represents the total employment over the year. As of April 2019, around 86% of the US workforce are employed in the service providing industries whereas the reamining 14% are employed in the goods-producing industries. The chart shows that while roughly 20.53 millions lost their jobs only during the pandemic (i.e., March 2020 - April 2020), their distribution in these two super sectors remained the steady over the year and during this pandemic.
 
 <img src="/assets/Unemployment/US_Workforce_Trends.png">
- 
-All the supporting actors have significantly fewer number of lines (<500) compared to the main characters. This implies that multiclass ML modeling may suffer from imbalance in the dataset when number of classes considered is > 6 in the analysis.
-   
-I generated wordclouds to check if it can be used to find words that are unique to different characters. For example, when I think of Ross, I always relate him to paleontology. So I wanted to check if a worldcloud for Ross would be able to relate him to paleontological terms. I decided to make the wordcloud interactive so that I can filter out the most frequent words that have been said by everyone in the show.For example, few of the commonly used words are oh, go, know, okay, start, really etc. When we generate a wordcloud using lines for Ross/Monica/Joey and set the filter to 0 (see figure below), the wordclouds are  dominated by the similar common words. If we filter the first ~3000 common words using the slider, the wordcloud becomes more unique to the lines of Ross/Monica/Joey we know from the show [e.g. Mesozoic, aura, fossils etc for Ross, Chandler, Cookie, TV for Joey etc. after filtering 3000 common words].
 
-<img src="/assets/NLPFriends/Wordcloud_filter.png">
+
+# Snapshot of US Workforce in Goods-producing and Service-providing industries
+ 
+The goods-producing industries largely comprises of manufacturing and construction and contributed to employ roughly ~20 millions americans. The major industries in the service providing sector are education and health services, government institutions, trade and transporation as well as professional and business services. Each of these four subgroups in the service -providing sector alone provided more jobs (>20 millions) for americans than the goods-producing sector 
+ 
 
 
 # Modeling Approach
