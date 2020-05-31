@@ -20,7 +20,7 @@ The total nonfarm (i.e. all employees except farm workers, private household emp
 <img src="/assets/Unemployment/US_Workforce_Trends.png">
 
 
-## Snapshot: Goods-producing vs Service-providing
+## Snapshot: Goods-producing vs Service-providing Industry
  
 The goods-producing industries largely comprises of manufacturing and construction and contributed to employ roughly ~20 millions Americans as of March, 2020 (Figure 2). The major industries in the service providing sector are education and health services, government institutions, trade and transporation as well as professional and business services. Each of these four subgroups in the service -providing sector alone provided more jobs (>20 millions) for Americans than the goods-producing sector.
 
