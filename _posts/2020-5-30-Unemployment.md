@@ -17,7 +17,7 @@ Below are the takeaways from it:
 
 The total nonfarm (i.e. all employees except farm workers, private household employees, or non-profit organization employees) employees in the US can be grouped into to two major categories or super-sectors - Goods-producing industry and Service-providing Industry. The barplot in the Figure below shows the distribution the US workforce in these two supersectors over the years while the line plot represents the total employment over the year. As of April 2019, around 86% of the US workforce are employed in the service providing industry whereas the reamining 14% are employed in the good producing industry. While the total number of americans employed dropped by 20.53 millions only during the pandemic (i.e., March 2020 - April 2020), their distribution in these two super sectors remained the steady over the year and during this pandemic.
 
-<img src="/assets/Unemployment/US_Workforce_Trends.png">
+
  
 All the supporting actors have significantly fewer number of lines (<500) compared to the main characters. This implies that multiclass ML modeling may suffer from imbalance in the dataset when number of classes considered is > 6 in the analysis.
    
