@@ -11,7 +11,7 @@ mathjax: true
 
 Covid 19 has affected all of our lives in many ways. The job landscape is reported to have changed drastically in the US. Many of the friends I talked to were of the opinion that while many sectors experienced hiring freeze or layoffs, some sectors have also seen an uptick in employment opportunities as we continue to adjust our lives to this new normal. So I decided to scrape the data from some of the reports published on May,2020 on the [website](https://www.bls.gov/) of Bureau of Labor Statistics, and then do some visualizations to educate myself on the trends. The notebook can be found [here]()
 
-Below are the takeaways from it:
+Below are the take aways from it:
 
 ## US Workforce: Trends and Distribution
 
