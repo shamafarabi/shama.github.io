@@ -38,4 +38,7 @@ To help further evaluate the impact on different industries, percentage reductio
 # Unemployment during Covid: Ranked by State
 
 
+<img src="/assets/Unemployment/unemployment_by_state.png">
+
+
 
