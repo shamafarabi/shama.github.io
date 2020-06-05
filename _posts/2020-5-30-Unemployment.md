@@ -9,7 +9,7 @@ mathjax: true
 
 ## Introduction
 
-Covid 19 has affected all of our lives in many ways, the job landscape is reported to have changed drastically in the US. Many of the friends I talked to were of the opinion that while many sectors experienced hiring freeze or layoffs, some sectors have also seen an uptick in employment opportunities as we continue to adjust our lives to this new normal. So I decided to scrape some data from reports published on the [website](https://www.bls.gov/) of Bureau of Labor Statistics this May, and do some visualizations to educate myself. The notebook can be found [here]()
+Covid 19 has affected all of our lives in many ways, the job landscape is reported to have changed drastically in the US. Many of the friends I talked to were of the opinion that while many sectors experienced hiring freeze or layoffs, some sectors have also seen an uptick in employment opportunities as we continue to adjust our lives to this new normal. So I decided to scrape some data from reports published on the [website](https://www.bls.gov/) of Bureau of Labor Statistics this May, and do some visualizations to educate myself. 
 
 Below are the take aways from it:
 
