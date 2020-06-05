@@ -29,19 +29,27 @@ The goods-producing industries largely comprises of manufacturing and constructi
 
 
 ## Unemployment during Covid-19: Ranked by Industry
-Figure 3 charts the number of layoffs (i.e. increase in unemployment) in ranked order from top to bottom. All the industries across the US were negatively impacted due to the pandemic. The Leisure and Hospitality Industry was hit the hardest. Roughlly 46.7% (~7.6 millions) of the Americans working in this sector lost their jobs between March - April 2020 due to the pandemic. The number of job cuts in the Education and Health Services came as a surprise given the increasing need of support required at the hospitals at the moment, but it is possible that any possible uptick of hiring in the hospitals was offset by layoffs in other non-emergency services in the health or education sector. The top 3 sectors in the chart taking the worst hit of the pandemic represented 45.4% of the US workforce in March 2020. 
+Figure 3 charts the number of layoffs (i.e. increase in unemployment) in ranked order from top to bottom. All the industries across the US were negatively impacted due to the pandemic. The Leisure and Hospitality Industry was hit the hardest. Roughlly 46.7% (~7.6 millions) of the Americans working in this sector lost their jobs between March - April 2020 due to the pandemic.  The top 3 sectors in the chart taking the worst hit of the pandemic represented 45.4% of the US workforce in March 2020. 
 
-To help further evaluate the impact on different industries, percentage reduction of workforce in all industries are ranked and listed in the table next to Figure 3.   Based on the total number of employments in March 2020 and lay offs over the month, Americans working in Financial Services (represents 5.6% of total US workforce) and government institutions (represents 15% of the US workforce) were relatively safer when comes to remaining employed. Both sectors experienced less than 5% decrease in their respective workforce
+To help further evaluate the impact on different industries, percentage reduction of workforce in all major industry sectors are ranked and listed in the table next to Figure 3.   Based on the total number of employments in March 2020 and lay offs over the month, Americans working in Financial Services (represents 5.6% of total US workforce) and government institutions (represents 15% of the US workforce) were relatively safer when comes to remaining employed. Both sectors experienced less than 5% decrease in their respective workforce
 
 <img src="/assets/Unemployment/unemployment_by_sectors.png">
+
+The number of job cuts in the Education and Health Services came as a surprise given the increasing need of support required at the hospitals at the moment. My initial impression was that the uptick of hiring in the hospitals was offset by layoffs in other non-emergency services in the health or education sector. But visualization of the employment data at the next sublevel shows that it is probably not true (Figure 4). Healthcare is one of the top three sectors going through a decline and educational service also followed the downward trend in the employment during March - April. 
+
+<img src="/assets/Unemployment/Employment_By_Industries.png">
+
+Figure 5 below shows some recovery in employment by different sectors during April - May,2020. I added this plot an extension after Bureau of Labor Statistics  relased a new employment report on June 5. The results shows some recovery in employment in most of the sectors while employment in goverment sector (local,state and federal) and some other areas such as entertainment industries and transportation continue to decline. This partial recovery probably reflects the shift in demands as people adjusts their lives afer the initial fear of the pandemic during April and many places in the states/industries begin to loosen their lockdown policies. 
+
+<img src="/assets/Unemployment/Recovery.png">
 
 ## Unemployment during Covid-19: Ranked by State
 The number of employment decreased in all the 50 states and the District of Columbia during March - April, 2020. The largest job declines occurred in California  (2.34 millions), New York (1.83 Millions), and Texas 1.3 millions (Figure 4). These 3 states were also the top 3 places providing ~36 millions jobs altogether to the Americans as of March,2020. 
 
-The largest percentage declines occurred in Michigan (-22.8 percent), Vermont (-19.6 percent), and New York (-18.8 percent) (Table next to Figure 4). The effect of the pandemic on US employment is probably more severe in the east coast than the other regions. As highlighted in the table below, 7 of the top 10 states (Vermont, New York, New Jersey, Rhode Island, Massachussets, Pennsylvania and Delaware)  that were hit hardest are from this region.
+The largest percentage declines occurred in Michigan (-22.8 percent), Vermont (-19.6 percent), and New York (-18.8 percent) (Table next to Figure 6). The effect of the pandemic on US employment is probably more severe in the east coast than the other regions. As highlighted in the table below, 7 of the top 10 states (Vermont, New York, New Jersey, Rhode Island, Massachussets, Pennsylvania and Delaware)  that were hit hardest are from this region.
 
 
-<img src="/assets/Unemployment/unemployment_by_state.png">
+<img src="/assets/Unemployment/unemployment_by_state2.png">
 
 
 ## Conclusion
