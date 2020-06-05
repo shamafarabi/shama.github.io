@@ -44,7 +44,7 @@ Figure 5 below shows some recovery in employment by different sectors during Apr
 <img src="/assets/Unemployment/Recovery.png">
 
 ## Unemployment during Covid-19: Ranked by State
-The number of employment decreased in all the 50 states and the District of Columbia during March - April, 2020. The largest job declines occurred in California  (2.34 millions), New York (1.83 Millions), and Texas 1.3 millions (Figure 4). These 3 states were also the top 3 places providing ~36 millions jobs altogether to the Americans as of March,2020. 
+The number of employment decreased in all the 50 states and the District of Columbia during March - April, 2020. The largest job declines occurred in California  (2.34 millions), New York (1.83 Millions), and Texas 1.3 millions (Figure 6). These 3 states were also the top 3 places providing ~36 millions jobs altogether to the Americans as of March,2020. 
 
 The largest percentage declines occurred in Michigan (-22.8 percent), Vermont (-19.6 percent), and New York (-18.8 percent) (Table next to Figure 6). The effect of the pandemic on US employment is probably more severe in the east coast than the other regions. As highlighted in the table below, 7 of the top 10 states (Vermont, New York, New Jersey, Rhode Island, Massachussets, Pennsylvania and Delaware)  that were hit hardest are from this region.
 
