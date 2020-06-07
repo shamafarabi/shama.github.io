@@ -39,6 +39,7 @@ The ML modeling for this problem is a multi-class classification task. While I e
 Before  ML modeling, differnt word embedding techcniques (i.e. tfidf, count -vectorizer and word2vec) were applied to convert the text into features. To identify the best word embedding technique, I applied a logisitic regression model for all of them and compared the accuracies. I picked tfidf for rest of the modeling steps as it resulted in the same accuracy as word2vec and is also computationally less expensive.
     
 Below are the preliminary ML modeling results for different linear ML models after processing the lines with tfidf. While the overall accuracy for all ML models ( multinomial naive bayes, logistic regression, SVC) are fairly low, all the ML models were found to have better prediction compared to the baseline model (i.e. a dummy classifier).
+<center> Preliminary Modeling Results</center>
 
 <img src="/assets/NLPFriends/accuracy_classification.png">
  
