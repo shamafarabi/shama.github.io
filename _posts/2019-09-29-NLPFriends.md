@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Simple Feature Engineering for Improving Multiclass Text Classification: Identifying Friends"
+title:  "Simple Feature Engineering for Improving Prediction Accuracy in Multiclass Text Classification"
 excerpt: "I recently completed a project where I used NLP to predict characters of my favorite TV show Friends. I felt that some of the learnings from the project should be put together to highlight how simple feature engineering can help to take a simplified approach for ML modeling while improving the accuracy in multiclass text classification."
 date:   2019-09-29 01:00:00
 mathjax: true
