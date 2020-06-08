@@ -11,9 +11,8 @@ mathjax: true
 
 'Friends' is one of my all time favorite TV shows. I was looking for a personal project to apply NLP, and thought it would be interesting to see how machine learning models can be trained to guess the characters from the show. I thought that data analysis and machine learning could be an interesting approach for an author/director to check if the cast members in their story or plot have predicatable traits or how their roles are being perceived by the audience.
    
-My goal of writing this blog is to highlight that getting accurate prediction for an ML problem does not necessarily rely on the use of sophisticated ML models. For problems related to classification , confusion  matrix or roc_auc curve can be an useful guide to understand how we can use simple feature engineering or resampling to improve prediction accuracy for linear ML models. 
-   
-This blog is a short summary of some of the outcomes from the project. If you are interested to know about on all the aspects I explored in this project, please check out the project report in my github repo.
+My goal of writing this blog is to highlight that getting accurate prediction for an ML problem does not necessarily rely on the use of trying different ML models first. For problems related to classification , confusion  matrix or roc_auc curve can be an useful guide to understand how we can use simple feature engineering or resampling to improve prediction accuracy for linear ML models. 
+ 
  
 ## Data Processing
 
@@ -38,7 +37,7 @@ The ML modeling for this problem is a multi-class classification task. While I e
 
 Before  ML modeling, differnt word embedding techcniques (i.e. tfidf, count -vectorizer and word2vec) were applied to convert the text into features. To identify the best word embedding technique, I applied a logisitic regression model for all of them and compared the accuracies. I picked tfidf for rest of the modeling steps as it resulted in the same accuracy as word2vec and is also computationally less expensive.
     
-Below are the preliminary ML modeling results for different linear ML models after processing the lines with tfidf. While the overall accuracy for all ML models ( multinomial naive bayes, logistic regression, SVC) are fairly low, all the ML models were found to have better prediction compared to the baseline model (i.e. a dummy classifier).
+Below are the preliminary ML modeling results for different linear ML models after processing the lines with tfidf. All the ML models were found to have better prediction compared to the baseline model (i.e. a dummy classifier), however the overall accuracy for all ML models (multinomial naive bayes, logistic regression, SVC) are fairly low.
 
 <img src="/assets/NLPFriends/accuracy_classification.png">
  
