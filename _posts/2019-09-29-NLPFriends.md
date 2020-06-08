@@ -41,7 +41,7 @@ Below are the preliminary ML modeling results for different linear ML models aft
 
 <img src="/assets/NLPFriends/accuracy_classification.png">
  
-It is to note that while mean accuracy reflects the overall prediction ability of a classifer, it does not evaluate the degree to which a classifier can discriminate between different classes. In general, roc_auc score is a better representation of a classifier's performance than accruacy for a multiclass problem as unlike accuracy, roc_auc does not depend on a specific thresholding value and evaluate the degree to which a classifier correctly identify different classes in a multiclass problem. Therefore, we will discuss model performance in terms of macro roc_auc score in addition to  mean accuracy later in this section.
+It is to note that while mean accuracy reflects the overall prediction ability of a classifer, it does not evaluate the degree to which a classifier can discriminate between different classes. In general, roc_auc score is a better representation of a classifier's performance than accruacy for a multiclass problem as unlike accuracy, roc_auc does not depend on a specific thresholding value and evaluate the degree to which a classifier correctly identify different classes in a multiclass problem. Therefore, I will consider model performance in terms of macro roc_auc score in addition to  mean accuracy to discuss improvement in the next section.
 
 ## Feature Engineering and Resampling to Improving Model Prediction
 
