@@ -1,3 +1,3 @@
-## Welcome to Shama's website source. [This is a work in progress and inspired from the website by srcole]
+This repository contains code for my personal website https://shamafarabi.github.io/
 
 
