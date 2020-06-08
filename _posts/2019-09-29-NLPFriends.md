@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Simple Feature Engineering for Improving Prediction Accuracy in Multiclass Text Classification"
+title:  "Feature Engineering for Improving Model Prediction in Multiclass Text Classification"
 excerpt: "I recently completed a project where I used NLP to predict characters of my favorite TV show Friends. I felt that some of the learnings from the project should be put together to highlight how simple feature engineering can help to take a simplified approach for ML modeling while improving the accuracy in multiclass text classification."
 date:   2019-09-29 01:00:00
 mathjax: true
@@ -11,7 +11,7 @@ mathjax: true
 
 'Friends' is one of my all time favorite TV shows. I was looking for a personal project to apply NLP, and thought it would be interesting to see how machine learning models can be trained to guess the characters from the show. I thought that data analysis and machine learning could be an interesting approach for an author/director to check if the cast members in their story or plot have predicatable traits or how their roles are being perceived by the audience.
    
-My goal of writing this blog is to highlight that getting accurate prediction for an ML problem does not necessarily rely on the use of trying different ML models first. For problems related to classification , confusion  matrix or roc_auc curve can be an useful guide to understand how we can use simple feature engineering or resampling to improve prediction accuracy for linear ML models. 
+My goal of writing this blog is to highlight that getting accurate prediction for an ML problem does not necessarily rely on the use of trying different ML models first. For problems related to classification, confusion  matrix or roc_auc curve can be an useful guide to understand how simple feature engineering (i.e. as trivial as adding an additional feature) or resampling can improve prediction accuracy for linear ML models. 
  
  
 ## Data Processing
@@ -43,18 +43,17 @@ Below are the preliminary ML modeling results for different linear ML models aft
  
 It is to note that while mean accuracy reflects the overall prediction ability of a classifer, it does not evaluate the degree to which a classifier can discriminate between different classes. In general, roc_auc score is a better representation of a classifier's performance than accruacy for a multiclass problem as unlike accuracy, roc_auc does not depend on a specific thresholding value and evaluate the degree to which a classifier correctly identify different classes in a multiclass problem. Therefore, we will discuss model performance in terms of macro roc_auc score in addition to  mean accuracy later in this section.
 
-## Improvements
+## Feature Engineering and Resampling to Improving Model Prediction
 
 There are few options that can be attempted to improve prediction by the models. <br><br>
     - A. We can take a look at the confusion matrix to check if the model in confusing any particular class with another and if there is a way to improve the distinction between the classes via feature engineering. <br><br>
     - B.  As showed earlier in the barplot, there is a class imbalance in the data. While this imbalance is more significant between the 6 leading actors and the others, resampling can help adjust the imbalance in the data among the leading actors too and slightly improve the score.  <br><br>
-    - C. We can also take a look at class specific roc_auc score to identify which classes are being identified less accurately by the model. This would help us to identify ways to train the model the model better for those classes.
     
 <img src="/assets/NLPFriends/CM1.png">
     
-Above is a confusion matrix after making predictions with logistic regression after tuning the modeling parameters with gridsearch. The accuracy and macro roc_auc score obtained were 0.26 and 0.64. The confusion matrix shows that the model has the highest probability of misclassifying Ross as Phoebe,  Rachel as Ross or Monica ar Ross or Joey. Therefore, one way to help the model classify the characters better can be is to provide an extra input feature that lists the gender of the characters. When this was done and the logistic regression model was retrained, the accuracy and macro_roc_auc score for prediction on the test data was improved to 0.42 and 0.85.
+Above is a confusion matrix after making predictions with logistic regression after tuning the modeling parameters with gridsearch. The accuracy and macro roc_auc score obtained for this model were 0.26 and 0.64. The confusion matrix shows that the model has the highest probability of misclassifying Ross as Phoebe,  Rachel as Ross or Monica ar Ross or Joey. Therefore, one way to help the model classify the characters better can be is to provide an extra input feature that lists the gender of the characters. When this was done and the logistic regression model was retrained, the accuracy and macro_roc_auc score for prediction on the test data was improved to 0.42 and 0.85.
   
-To address class imbalance, both oversampling and undersampling  techniques can be attempted for resampling. Both methods involve introducing a bias to select more samples from one class than from another, to compensate for an imbalance that is present in the data. The goal of this step is to resample dataset using oversampling and undersampling. As the name suggests, undersampling remove samples from over-represented classes and oversampling add more samples from the under-respresnted class in the raw dataset so that the dataset for modeling can have a balanced distribution of all classes. Whether an undersampling or oversampling scheme would work better for a dataset depends on the size of the train dataset that a particular classifier may require to be able to make a good prediction.
+To address class imbalance, both oversampling and undersampling  techniques can be attempted for resampling. Both methods involve introducing a bias to select more samples from one class than from another, to compensate for an imbalance that is present in the data.  As the name suggests, undersampling remove samples from over-represented classes and oversampling add more samples from the under-respresnted class in the raw dataset so that the dataset for modeling can have a balanced distribution of all classes. Whether an undersampling or oversampling scheme would work better for a dataset depends on the size of the train dataset that a particular classifier may require to be able to make a good prediction.
     
  For this problem, I utilized random oversampling algorithm to resample the input data ('Gender' and 'Lines'), and this further improved the classification accuracy to 0.46 and  macro_roc_auc score to 0.86.As evident from the confusion matrix shown below,after feature engineering and oversampling, model now identify each class more distinctively. For example, it no longer misclassify 'Ross' as Chandler, Joey or Monica.
  
