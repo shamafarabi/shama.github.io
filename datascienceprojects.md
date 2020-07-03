@@ -16,4 +16,4 @@ Book reading apps like Goodreads has personally helped me to find books I couldn
  </p>
  
 ### 3. A Web App for Image Classification using fastai -[Repository](https://github.com/shamafarabi/fastai-v3)
-In this project, I made an image classification web app using fastai to identify different types of car. Image data was collected for different cars and labeled using Google Image Search for different body types(SUV,Sedan, Convertible and Trucks, Racing cars). A renet34 pretrained model was used for transfer learning with fastai and then deployed online. you can try it out [here](https://car-make-detection.onrender.com/)
+In this project, I made an image classification web app using fastai to identify different types of car. Image data was collected for different cars and labeled using Google Image Search for different body types(SUV,Sedan, Convertible and Trucks, Racing cars). A renet34 pretrained model was used for transfer learning with fastai and then deployed online. you can try it out [here.](https://car-make-detection.onrender.com/)
