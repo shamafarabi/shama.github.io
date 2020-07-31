@@ -19,6 +19,6 @@ Book reading apps like Goodreads has personally helped me to find books I couldn
 In this project, I made an image classification web app using fastai to identify different types of car. Image data was collected for different cars and labeled using Google Image Search for different body types(SUV,Sedan, Convertible and Trucks, Racing cars). A renet34 pretrained model was used for transfer learning with fastai and then deployed online. you can try it out [here.](https://car-make-detection.onrender.com/)
 
 ### 4. NLP with fastai: A Web App for Guessing the Friend in "Friends"
-This web app demonstrated a deployment of a multiclass text classification web app I developled using fastai. A user can input any line he\she wants from the transcripts of the tv show "Friends" and let the ML model guess the character. You can play with it [here].(https://friends-2b3s.onrender.com/)
+This web app demonstrated a deployment of a multiclass text classification web app I developled using fastai. A user can input any line he\she wants from the transcripts of the tv show "Friends" and let the ML model guess the character. You can play with it [here.](https://friends-2b3s.onrender.com/)
 
 The data for this ML modeling was scraped from trasncripts available online. An RNN based AWD LSTM Model pretrained on WikiTxt dataset was used as a language model and then fine tuned with the current dataset for this project. The language model was then trained as a classification model to predict characters from a dialogue\lines they said in the show.
