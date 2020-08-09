@@ -26,7 +26,7 @@ This web app demonstrated a deployment of a multiclass text classification web a
 
 The data for this ML modeling was scraped from trasncripts available online. An RNN based AWD LSTM Model pretrained on WikiTxt dataset was used as a language model and then fine tuned with the current dataset for this project. The language model was then trained as a classification model to predict characters from a dialogue\lines they said in the show.
 
-## Data Visualization with Tableau:
+## Data Visualization with Tableau
 
 ### 1. Unemployment in the US during Covid-19, Visualized using Tableau
 
