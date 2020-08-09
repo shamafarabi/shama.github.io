@@ -28,7 +28,7 @@ The data for this ML modeling was scraped from trasncripts available online. An 
 
 ## Data Visualization with Tableau:
 
-### Unemployment in the US during Covid-19, Visualized using Tableau
+### 1. Unemployment in the US during Covid-19, Visualized using Tableau
 
 By scraping data from the reports published on the website of Bureau of Labor Statistics,  I developed an interactive dashboard to explore the unemployment situation in the US by taking a close look at the trends in different states and industry sectors. You can play with it [here](https://public.tableau.com/views/Book2_15969148443530/Dashboard1?:language=en&:display_count=y&:origin=viz_share_link). Be sure to hover with your cursor on the plots and click the buttons for pop up charts with more information. 
 
